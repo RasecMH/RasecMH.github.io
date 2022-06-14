@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+#bg {
+  background-color: black;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.92;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  background-image: url('./Images/bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+
+header {
+  font-size: 3rem;
+  display: flex;
+  padding: 2.2rem;
+  margin-left: 3rem;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60%;
+  width: 100%;
+  padding: 2.2rem;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+p {
+  max-width: 60rem;
+}
+
+.fa-brands {
+  color: white;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: 3rem;
+  gap: 2rem;
+  font-size: 2rem;
+  color: white;
+}
+
+#jobs {
+  font-size: 1.8rem;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+#footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#icons-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 3rem;
+  padding-top: 1.5rem;
+}
